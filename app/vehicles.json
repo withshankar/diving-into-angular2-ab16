@@ -1,0 +1,57 @@
+[
+  {
+    "id": 30,
+    "name": "MillenniumFalcon",
+    "type": "space"
+  },
+  {
+    "id": 32,
+    "name": "X-WingFighter",
+    "type": "space"
+  },
+  {
+    "id": 33,
+    "name": "ImperialStarDestroyer",
+    "type": "space"
+  },
+  {
+    "id": 34,
+    "name": "AT-ATWalker",
+    "type": "land"
+  },
+  {
+    "id": 35,
+    "name": "TIEFighter",
+    "type": "space"
+  },
+  {
+    "id": 36,
+    "name": "B-WingFighter",
+    "type": "space"
+  },
+  {
+    "id": 37,
+    "name": "ETA-2JediStarfighter",
+    "type": "space"
+  },
+  {
+    "id": 38,
+    "name": "TIEInterceptor",
+    "type": "space"
+  },
+  {
+    "id": 39,
+    "name": "X-34Landspeeder",
+    "type": "land"
+  },
+  {
+    "id": 40,
+    "name": "SnowSpeeder",
+    "type": "land"
+  },
+  {
+    "id": 41,
+    "name": "X-34Landspeeder",
+    "type": "land"
+  }
+]
