@@ -1,4 +1,5 @@
 import { Component, OnInit } from 'angular2/core';
+import { Observable } from 'rxjs/Rx';
 
 import { CustomerComponent } from './customer.component';
 
@@ -10,11 +11,13 @@ import { DataService } from './customer.service';
   directives: [CustomerComponent]
 })
 export class CustomersComponent implements OnInit {
-  customers = [];
+  // customers = [];
+  customers: Observable<any[]>;
 
   constructor(private _dataservice: DataService) { }
 
   ngOnInit() {
+    // this.customers = this._dataservice.getCustomers();
     this.customers = this._dataservice.getCustomers();
   }
 }
