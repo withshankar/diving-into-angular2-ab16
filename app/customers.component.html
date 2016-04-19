@@ -1,7 +1,7 @@
 <div>
   <h4> customers go here</h4>
   <ul>
-    <li *ngFor="#c of customers | async">
+    <li *ngFor="#c of customers">
       <my-customer [customer]="c"></my-customer>
     </li>
   </ul>

@@ -11,13 +11,16 @@ import { DataService } from './customer.service';
   directives: [CustomerComponent]
 })
 export class CustomersComponent implements OnInit {
-  // customers = [];
-  customers: Observable<any[]>;
+  customers = [];
+  // customers: Observable<any[]>;
 
   constructor(private _dataservice: DataService) { }
 
   ngOnInit() {
     // this.customers = this._dataservice.getCustomers();
-    this.customers = this._dataservice.getCustomers();
+    // this.customers = this._dataservice.getCustomers();
+
+    this._dataservice.getCustomers()
+      .subscribe((custs) => this.customers = custs);
   }
 }
